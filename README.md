@@ -1,6 +1,5 @@
-#PenTerm
-
-**PenTerm** is my terminal config used for penetration testing and to gain more work speed, beauty and efficiency!
+# PenTerm 
+My terminal config used for penetration testing and to gain more work speed, beauty and efficiency!
 
 It consits of combination between:
 	1. Vim
@@ -11,20 +10,21 @@ It consits of combination between:
 ![](IMG_3333.gif)
 ![alt text](https://imgur.com/a/6MLoXUP)
 
-#SETUP
+# SETUP
 
-##1. VIM:
+## 1. VIM:
 
 Take the given .vimrc file and use the following instructions:
 
-``
+```
 1. $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 2. $ apt install build-essential cmake vim python3-dev
 3. $ cd ~/.vim/bundle/youcompleteme
 4. $ git submodule update --init --recursive
 5. $ ./install.sh --all ( or only for C - ./install.sh --clang-completer)
 6. :source %
-7. :PluginInstall``
+7. :PluginInstall
+```
 
 If you get any errors while installing the YCM plugin i suggest following their official docs:
 https://github.com/ycm-core/YouCompleteMe
@@ -33,7 +33,7 @@ This should be able to allow all plugins to work and use of autocomplete/autosug
 
 `NOTE: This config is mainly C/C++ related , but is easy to work around for any language`
 
-###Useful keybinds:
+### Useful keybinds:
 
 To get more familliar with the config i suggest reading it (it's very small i promise) but here are some keybinds i have remapped:
 `F5` -> hide line number.
@@ -45,12 +45,12 @@ These 2 are useful for scrolling down the code and copying and pasting using you
 `F6` -> Nerd Tree (show other directories and files).
 
 
-##2. TMUX:
+## 2. TMUX:
 
 This is just a minimalistic config. Allows you to scroll easly and even change panes using your mouse. Otherwise it's all default keybinds.
 Mouse scrolling had a lot of problems trough the tmux history but i think this is the best possible setup for it without getting errors.
 
-###SETUP:
+### SETUP:
 
 ```
 1. $ git clone https://github.com/nhdaly/tmux-better-mouse-mode ~/clone/path
@@ -60,11 +60,11 @@ Mouse scrolling had a lot of problems trough the tmux history but i think this i
 
 `NOTE: To copy text while scrolling (and selecting) hold shift.`
 
-##3. Fish shell:
+## 3. Fish shell:
 
 Nothing too much about this one. Take a look at the fish_prompt.fish if u want to have the same colors like PenTerm does. 
  
-###SETUP:
+### SETUP:
 
 ```
 1. $ curl -L https://get.oh-my.fish > install
@@ -76,11 +76,11 @@ Nothing too much about this one. Take a look at the fish_prompt.fish if u want t
 
 If you wish to not have the autosuggestions run `set fish_color_autosuggestion black` or just place it in your ~/.config/fish/.config.fish .
 
-##4. Fonts:
+## 4. Fonts:
 
 It's **bedstead font** which ended up being the closest version to bitmap i like.
 
-##SETUP:
+## SETUP:
 ```
 1. Download the zip from here: https://bjh21.me.uk/bedstead/
 2. Extract it
@@ -90,7 +90,8 @@ It's **bedstead font** which ended up being the closest version to bitmap i like
 ```
 
 
-#That should be it. Enjoy your new PenTerm!
+#That should be it. Enjoy your new ***PenTerm***!
+
 
 
 
