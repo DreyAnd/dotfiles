@@ -90,7 +90,7 @@ It's **bedstead font** which ended up being the closest version to bitmap i like
 ```
 
 
-#That should be it. Enjoy your new ***PenTerm***!
+# That should be it. Enjoy your new ***PenTerm***!
 
 
 
