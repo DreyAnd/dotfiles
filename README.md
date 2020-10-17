@@ -8,7 +8,7 @@ It consits of combination between:
 	4. Bedstead font (nerd font version of ~~banned~~ bitmap fonts)
 
 ![](IMG_3333.gif)
-![alt text](https://imgur.com/a/6MLoXUP)
+![](screen.png)
 
 # SETUP
 
