@@ -26,7 +26,7 @@ Take the given .vimrc file and use the following instructions:
 7. :PluginInstall
 ```
 
-If you get any errors while installing the YCM plugin i suggest following their official docs:
+If you get any errors while installing the YCM plugin i **suggest following their official docs**:
 https://github.com/ycm-core/YouCompleteMe
 
 This should be able to allow all plugins to work and use of autocomplete/autosuggestion.
@@ -53,8 +53,8 @@ Mouse scrolling had a lot of problems trough the tmux history but i think this i
 ### SETUP:
 
 ```
-1. $ git clone https://github.com/nhdaly/tmux-better-mouse-mode ~/clone/path
-2. $ Use the given .tmux.conf file.
+1. $ cd ~/ ; git clone https://github.com/nhdaly/tmux-better-mouse-mode
+2. $ curl https://raw.githubusercontent.com/DreyAnd/PenTerm/master/Tmux/.tmux.conf > ~/.tmux.conf
 3. $ tmux source-file ~/.tmux.conf 
 ```
 
@@ -67,11 +67,12 @@ Nothing too much about this one. Take a look at the fish_prompt.fish if u want t
 ### SETUP:
 
 ```
-1. $ curl -L https://get.oh-my.fish > install
-2 .$ fish install --path=~/.local/share/omf --config=~/.config/omf
-3. reload tmux (if you want to do from terminal, do chsh -s /usr/bin/fish)
-4. $ omf install godfather
-5. $ cp fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+1. $ sudo apt install fish
+2. $ curl -L https://get.oh-my.fish > install
+3. $ fish install --path=~/.local/share/omf --config=~/.config/omf
+4. reload tmux (if you want to do from terminal, do chsh -s /usr/bin/fish)
+5. $ omf install godfather
+6. $ cp fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
 ```
 
 If you wish to not have the autosuggestions run `set fish_color_autosuggestion black` or just place it in your ~/.config/fish/.config.fish .
