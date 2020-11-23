@@ -14,6 +14,8 @@ It consits of combination between:
 
 ## 1. VIM:
 
+*Vundle based config*
+
 Take the given .vimrc file and use the following instructions:
 
 ```
