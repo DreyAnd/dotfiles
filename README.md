@@ -20,12 +20,14 @@ Take the given .vimrc file and use the following instructions:
 
 ```
 1. $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+2. $ curl https://raw.githubusercontent.com/DreyAnd/PenTerm/master/Vim/.vimrc > ~/.vimrc
+3. :source
+4. :PluginInstall
 2. $ apt install build-essential cmake vim python3-dev
 3. $ cd ~/.vim/bundle/youcompleteme
 4. $ git submodule update --init --recursive
 5. $ ./install.sh --all ( or only for C - ./install.sh --clang-completer)
-6. :source %
-7. :PluginInstall
+
 ```
 
 If you get any errors while installing the YCM plugin i **suggest following their official docs**:
