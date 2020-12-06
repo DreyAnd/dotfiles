@@ -53,6 +53,7 @@ These 2 are useful for scrolling down the code and copying and pasting using you
 
 This is just a minimalistic config. Allows you to scroll easly and even change panes using your mouse. Otherwise it's all default keybinds.
 Mouse scrolling had a lot of problems trough the tmux history but i think this is the best possible setup for it without getting errors.
+Make sure you already have fish installed or if you don't want to use it, change /usr/bin/fish into /bin/bash on the first config line.
 
 ### SETUP:
 
