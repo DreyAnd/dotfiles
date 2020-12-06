@@ -77,7 +77,7 @@ Nothing too much about this one. Take a look at the fish_prompt.fish if u want t
 3. $ fish install --path=~/.local/share/omf --config=~/.config/omf
 4. reload tmux (if you want to do from terminal, do chsh -s /usr/bin/fish)
 5. $ omf install godfather
-6. $ cp fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+6. $ curl https://raw.githubusercontent.com/DreyAnd/PenTerm/master/Fish/fish_prompt.fish > ~/.config/fish/functions/fish_prompt.fish
 ```
 
 If you wish to not have the autosuggestions run `set fish_color_autosuggestion black` or just place it in your ~/.config/fish/.config.fish .
