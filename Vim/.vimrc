@@ -68,7 +68,7 @@ call vundle#end()
 filetype plugin indent on
 
 "Colorscheme
-colorscheme landscape
+colorscheme torte
 
 "NERDTREE SHORTCUT(F6)
 nnoremap <F6> :NERDTree<CR>
