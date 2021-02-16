@@ -62,7 +62,6 @@ Plugin 'devx/c.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'itchyny/landscape.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -70,7 +69,11 @@ filetype plugin indent on
 "Colorscheme
 colorscheme torte
 
+" Line number colors
+highlight LineNr term=bold cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=Red guibg=NONE
+
 "NERDTREE SHORTCUT(F6)
 nnoremap <F6> :NERDTree<CR>
 
-
+"No annoying YCM docs info
+let g:ycm_confirm_extra_conf = 0
