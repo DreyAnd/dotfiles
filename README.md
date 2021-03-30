@@ -67,7 +67,7 @@ Make sure you already have fish installed or if you don't want to use it, change
 
 ## 3. Fish shell:
 
-Nothing too much about this one. Take a look at the fish_prompt.fish if u want to have the same colors like PenTerm does. 
+Nothing too much about this one. Take a look at the fish_prompt.fish if u want to have the same fish theme as PenTerm
  
 ### SETUP:
 
