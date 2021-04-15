@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 
 "TABS
 set tabstop=4
@@ -8,7 +8,7 @@ set shiftwidth=4
 set showcmd
 
 "Highlight the cursor
-set cursorline
+"set cursorline
 
 "Show line number
 set number
@@ -62,18 +62,53 @@ Plugin 'devx/c.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'bignimbus/pop-punk.vim'
 
 call vundle#end()
 filetype plugin indent on
 
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+
 "Colorscheme
-colorscheme torte
+colorscheme pop-punk
+
+if !exists('g:pop_punk_bold')
+  let g:pop_punk_bold = 1
+endif
+
+if !exists('g:pop_punk_italic')
+  let g:pop_punk_italic = 1
+endif
+
+if !exists('g:pop_punk_underline')
+  let g:pop_punk_underline = 1
+endif
+
+if !exists('g:pop_punk_undercurl') && g:pop_punk_underline != 0
+  let g:pop_punk_undercurl = 1
+endif
+
+if !exists('g:pop_punk_inverse')
+  let g:pop_punk_inverse = 1
+endif
+
+if !exists('g:pop_punk_colorterm')
+  let g:pop_punk_colorterm = 1
+endif 
+
+let g:pop_punk_italic = 0
+
 
 " Line number colors
-highlight LineNr term=bold cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=Red guibg=NONE
+"highlight LineNr term=bold cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=Red guibg=NONE
 
 "NERDTREE SHORTCUT(F6)
 nnoremap <F6> :NERDTree<CR>
 
 "No annoying YCM docs info
 let g:ycm_confirm_extra_conf = 0
+
+"let g:ycm_show_diagnostics_ui = 0
