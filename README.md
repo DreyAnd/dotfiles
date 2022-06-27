@@ -1,18 +1,5 @@
-# PenTerm 
-My terminal config used for penetration testing and to gain more work speed, beauty and efficiency!
 
-It consits of combination between:
-	1. Vim
-	2. Tmux
-	3. Fish shell
-	4. Bedstead font (nerd font version of ~~banned~~ bitmap fonts)
-
-![](IMG_3333.gif)
-![](screen.png)
-
-# SETUP
-
-## 1. VIM:
+## Vim:
 
 *Vundle based config*
 
@@ -49,13 +36,13 @@ These 2 are useful for scrolling down the code and copying and pasting using you
 `F6` -> Nerd Tree (show other directories and files).
 
 
-## 2. TMUX:
+## Tmux:
 
 This is just a minimalistic config. Allows you to scroll easly and even change panes using your mouse. Otherwise it's all default keybinds.
 Mouse scrolling had a lot of problems trough the tmux history but i think this is the best possible setup for it without getting errors.
 Make sure you already have fish installed or if you don't want to use it, change /usr/bin/fish into /bin/bash on the first config line.
 
-### SETUP:
+### Setup:
 
 ```
 1. $ cd ~/ ; git clone https://github.com/nhdaly/tmux-better-mouse-mode
@@ -65,11 +52,11 @@ Make sure you already have fish installed or if you don't want to use it, change
 
 `NOTE: To copy text while scrolling (and selecting) hold shift.`
 
-## 3. Fish shell:
+## Fish:
 
 Nothing too much about this one. Take a look at the fish_prompt.fish if u want to have the same fish theme as PenTerm
  
-### SETUP:
+### Setup:
 
 ```
 1. $ sudo apt install fish
@@ -83,11 +70,11 @@ NOTE: If step 6 doesen't make changes, you can put your own colors by typing fis
 
 If you wish to not have the autosuggestions run `set fish_color_autosuggestion black` or just place it in your ~/.config/fish/.config.fish .
 
-## 4. Fonts:
+## Fonts:
 
 It's **bedstead font** which ended up being the closest version to bitmap i like.
 
-## SETUP:
+## Setup:
 ```
 1. Download the zip from here: https://bjh21.me.uk/bedstead/
 2. Extract it
@@ -95,9 +82,6 @@ It's **bedstead font** which ended up being the closest version to bitmap i like
 4. Select the file
 5. Apply in terminal settings.
 ```
-
-
-# That should be it. Enjoy your new ***PenTerm***!
 
 
 
